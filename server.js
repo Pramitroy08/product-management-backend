@@ -11,7 +11,9 @@ const productRoutes = require("./src/routes/product.routes")
 const app = express()
 app.use(cors({
     origin: [
-        "product-management-frontend-h29pbgfv4-my-team-0161.vercel.app",
+
+        "http://product-management-frontend-topaz.vercel.app/login",
+
         "http://localhost:5173",
     ],
     credentials: true
