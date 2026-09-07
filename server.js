@@ -10,7 +10,10 @@ const productRoutes = require("./src/routes/product.routes")
 
 const app = express()
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: [
+        "product-management-frontend-h29pbgfv4-my-team-0161.vercel.app",
+        "http://localhost:5173",
+    ],
     credentials: true
 }))
 connectDB();
