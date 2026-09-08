@@ -12,7 +12,7 @@ const app = express()
 app.use(cors({
     origin: [
 
-        "http://product-management-frontend-topaz.vercel.app/login",
+        "https://product-management-frontend-drab.vercel.app/login",
 
         "http://localhost:5173",
     ],
